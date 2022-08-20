@@ -28,3 +28,11 @@
     --link-hover-color: #006eff;
     --link-color: #0099ff;
 }
+
+:root.ladder-row[data-v-286006ac] {
+    height: 80%;
+    max-height: 80%;
+}
+:root.Mage .col-6 {
+    width: 110%;
+}
