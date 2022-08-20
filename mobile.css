@@ -1,49 +1,53 @@
-@media only screen and (min-width: 428px)
-:root.mage-mobile {
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+    :root.mage-mobile {
 
-    --main-color: #FBC5E3;
-    --main-secondary-color: #FBC5E3;
-    --background-color: #10141f;
-    --background-dark-color: #090a14;
-    --background-light-color: #151d28;
-    --placeholder-color: #FBC5E3;
-    --item-selected-color: #202e37;
-    --text-font-size: 12px;
-    --text-color: #FBC5E3;
-    --text-light-highlight-color: #FBC5E3;
-    --text-dark-highlight-color: #533e4a;
-    --text-error-color: #2f348a;
-    --button-color: #6FD404;
-    --button-hover-color: #d62316;
-    --button-hover-background-color: #6a8a48;
-    --you-color: #FBC5E3;
-    --you-background-color: #503042;
-    --promoted-color: #6FD404;
-    --promoted-background-color: #59ff002e;
-    --eta-best: #548e40;
-    --eta-mid: #bf7a23;
-    --eta-worst: #b22145;
-    --header-color: #FBC5E3;
-    --header-font-size: 12px;
-    --navbar-color: #FBC5E3;
-    --offcanvas-background-color: #000000;
-    --link-hover-color: #006eff;
-    --link-color: #0099ff;
-}
-:root.mage-mobile .col-7 {
-    width: 90%;
-    overflow-y: hidden;
-    max-height: 20cm;
-    zoom: 0.5;
-}
-:root.mage-mobile .col-5 {
-    width: 90%;
-    margin-top: 0.5rem;
-    overflow-y: hidden;
-    min-height: 25cm;
-    padding-bottom: 5cm;
-    zoom: 0.5;
-}
-:root.mage-mobile body {
-    overflow-y: visible;
+        --main-color: #FBC5E3;
+        --main-secondary-color: #FBC5E3;
+        --background-color: #10141f;
+        --background-dark-color: #090a14;
+        --background-light-color: #151d28;
+        --placeholder-color: #FBC5E3;
+        --item-selected-color: #202e37;
+        --text-font-size: 12px;
+        --text-color: #FBC5E3;
+        --text-light-highlight-color: #FBC5E3;
+        --text-dark-highlight-color: #533e4a;
+        --text-error-color: #2f348a;
+        --button-color: #6FD404;
+        --button-hover-color: #d62316;
+        --button-hover-background-color: #6a8a48;
+        --you-color: #FBC5E3;
+        --you-background-color: #503042;
+        --promoted-color: #6FD404;
+        --promoted-background-color: #59ff002e;
+        --eta-best: #548e40;
+        --eta-mid: #bf7a23;
+        --eta-worst: #b22145;
+        --header-color: #FBC5E3;
+        --header-font-size: 12px;
+        --navbar-color: #1d1c1c;
+        --offcanvas-background-color: #000000;
+        --link-hover-color: #006eff;
+        --link-color: #0099ff;
+    }
+
+    :root.mage-mobile .col-7 {
+        width: 90%;
+        overflow-y: hidden;
+        max-height: 20cm;
+        zoom: 0.5;
+    }
+
+    :root.mage-mobile .col-5 {
+        width: 90%;
+        margin-top: 0.5rem;
+        overflow-y: hidden;
+        min-height: 25cm;
+        padding-bottom: 5cm;
+        zoom: 0.5;
+    }
+
+    :root.mage-mobile body {
+        overflow-y: visible;
+    }
 }
