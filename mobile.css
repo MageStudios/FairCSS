@@ -43,7 +43,12 @@
     overflow-y: hidden;
     min-height: 25cm;
     padding-bottom: 5cm;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
     transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
 }
 
 :root.mage-mobile body {
