@@ -1,4 +1,4 @@
-:root.mage {
+:root.Mage {
     
     --main-color: #FBC5E3;
     --main-secondary-color: #FBC5E3;
@@ -34,9 +34,9 @@
     height: 80%;
     max-height: 80%;
 }
-:root.mage .col-6 {
+:root.Mage .col-6 {
     width: 110%;
 }
-:root.chatInputPlaceholder[data-v-6bca8f8a] {
+:root.Mage.chatInputPlaceholder[data-v-6bca8f8a] {
     font-size: 12px;
 }
