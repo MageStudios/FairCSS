@@ -5,7 +5,7 @@
     width: 90%;
     overflow-y: hidden;
     max-height: 20cm;
-    zoom: 0.65;
+    zoom: 0.5;
 }
 :root.mage-mobile .col-5 {
     width: 90%;
@@ -13,7 +13,7 @@
     overflow-y: hidden;
     min-height: 25cm;
     padding-bottom: 5cm;
-    zoom: 0.65;
+    zoom: 0.5;
 }
 :root.mage-mobile body {
     overflow-y: visible;
