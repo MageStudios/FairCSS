@@ -37,3 +37,6 @@
 :root.mage .col-6 {
     width: 110%;
 }
+:root.chatInputPlaceholder[data-v-6bca8f8a] {
+    font-size: 12px;
+}
